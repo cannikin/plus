@@ -19,9 +19,7 @@ in doubt just check out the official docs. Each API call simply returns a Ruby h
 JSON sent back from the API. If in doubt as to how to access something just `.inspect` the code 
 returned by the call.
 
-### Activities
-
-#### list
+### Activities.list
 
 Lists recent posts for a given user:
 
@@ -32,7 +30,7 @@ activity returned from the previous call:
 
     result['items'].first['object']['content']
 
-##### get
+### Activities.get
 
 Retrieves data about the given activity:
 
@@ -40,7 +38,7 @@ Retrieves data about the given activity:
 
 Where `12345abcde` is a big string, the `id` of the activity you care about.
 
-###### search
+### Activities.search
 
 Returns recent activity that matches the given search term:
 
