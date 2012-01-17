@@ -4,9 +4,9 @@ A simple gem for using the Google+ API. See documentation here: https://develope
 
 ## Pre-requisites
 
-You'll need an API key from Google. You can apply from one here.
+You'll need an API key from Google. You can apply from one here: https://code.google.com/apis/console
 
-Note: Plus does not currently support OAuth authentication.
+_Note: Plus does not currently support OAuth authentication._
 
 ## Usage
 
