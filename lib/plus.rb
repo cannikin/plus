@@ -1,10 +1,8 @@
 require 'rubygems'
 require 'httparty'
-require_relative 'plus/activities'
-require_relative 'plus/activities_result'
-require_relative 'plus/activity'
-require_relative 'plus/comments'
-require_relative 'plus/people'
+require 'plus/activities'
+require 'plus/comments'
+require 'plus/people'
 
 module Plus
 
