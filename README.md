@@ -32,7 +32,7 @@ activity returned from the previous call:
 
     result['items'].first['object']['content']
 
-#### get
+##### get
 
 Retrieves data about the given activity:
 
@@ -40,7 +40,7 @@ Retrieves data about the given activity:
 
 Where `12345abcde` is a big string, the `id` of the activity you care about.
 
-#### search
+###### search
 
 Returns recent activity that matches the given search term:
 
