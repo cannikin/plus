@@ -1,14 +1,14 @@
-= Plus
+# Plus
 
 A simple gem for using the Google+ API. See documentation here: https://developers.google.com/+/api/
 
-== Pre-requisites
+## Pre-requisites
 
 You'll need an API key from Google. You can apply from one here.
 
 Note: Plus does not currently support OAuth authentication.
 
-== Usage
+## Usage
 
 First, tell Plus about your API key:
 
